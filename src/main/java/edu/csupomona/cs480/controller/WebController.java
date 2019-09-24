@@ -116,6 +116,15 @@ public class WebController {
 	String printSomething(){
 		return "Hello this is our group project";
 	}
+	
+	/**
+	*
+	*/
+	@RequestMapping(value = "/cs480/user/mihir", method = RequestMethod.GET)
+	String printSomething(){
+		return "Greetings From Mihir! ";
+	}
+	
 	/**
 	 * This API lists all the users in the current database.
 	 *
