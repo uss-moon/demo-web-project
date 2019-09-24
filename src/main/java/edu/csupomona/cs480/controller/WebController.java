@@ -108,7 +108,14 @@ public class WebController {
 			@PathVariable("userId") String userId) {
 		userManager.deleteUser(userId);
 	}
-
+	
+	/**
+	*
+	*/
+	@RequestMapping(value = "/cs480/user/something", method = RequestMethod.GET)
+	String printSomething(){
+		return "Hello this is our group project";
+	}
 	/**
 	 * This API lists all the users in the current database.
 	 *
