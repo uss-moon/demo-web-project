@@ -99,14 +99,6 @@ public class WebController {
 		return user;
 	}
 	/**
-	* This API prints Okay on the website?
-	*
-	*/
-	@RequestMapping(value = "/cs480/user/something", method = RequestMethod.GET)
-	String saySomething(){
-		return "I am tired";
-	}
-	/**
 	 * This API deletes the user. It uses HTTP DELETE method.
 	 *
 	 * @param userId
